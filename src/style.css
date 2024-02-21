@@ -1,0 +1,87 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background-color: #eef1fb;
+    display: flex;
+    flex-direction: column;
+    color:rgb(52, 122, 172);
+}
+
+#title {
+    text-align: center;
+    flex-grow: 1;
+}
+
+#title h1 {
+    margin: 0;
+    padding: 10px 0px;
+    color: rgb(54, 54, 136);
+}
+
+h2 {
+    margin: 0;
+    padding: 10px 0px;
+    color: rgb(52, 122, 172);
+}
+
+#interface {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+}
+
+#projects {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-grow: 1;
+}
+
+#project-default {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    width: 100vh;
+}
+
+#tasks {
+    margin: 10px;
+    padding: 10px;
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.task {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+}
+
+button {
+    background-color: rgb(52, 122, 172);
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(54, 54, 136);
+}
+
+button:active {
+    background-color: rgb(54, 54, 136);
+    transform: translateY(2px);
+}
+
